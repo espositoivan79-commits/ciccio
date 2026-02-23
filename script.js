@@ -25,14 +25,15 @@ const s1 = {
     id: "1",
     name: "A",
     isActive: false,
-    voti: [4, 6, 8]
+    voti: [4,6,8,9,10]
 };
 const s2 = {
     id: "2",
     name: "B",
     isActive: true,
-    voti: [4, 6, 8]
-};
+    voti: [4,6,8,7,6]
+}
+
 classe.addStudent(s1);
 classe.addStudent(s2);
 console.log(classe.calcolaMedia(s1));

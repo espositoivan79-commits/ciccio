@@ -36,14 +36,14 @@ const s1: Studente = {
   id: "1",
   name: "A",
   isActive: false,
-  voti: [4,6,8]
+  voti: [4,6,8,9,10]
 }
 
 const s2: Studente = {
   id: "2",
   name: "B",
   isActive: true,
-  voti: [4,6,8]
+  voti: [4,6,8,7,6]
 }
 
 classe.addStudent(s1);
